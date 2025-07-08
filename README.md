@@ -68,6 +68,6 @@ The `add` module was verified using the provided testbench (`add_tb.vhdl`). The 
 
 ### Test Case: Carry-Out (15 + 1 = 16), Third Segment ->.
 
-The waveform below shows the final and most important test case. The inputs are set to `a = "1111"` (15) and `b = "0001"` (1). The 5-bit `sum` output correctly becomes `"10000"` (16), confirming that the adder handles the carry-out bit as expected.
+The waveform below shows all three test cases, however the most important one is our final case. The inputs are set to `a = "1111"` (15) and `b = "0001"` (1). The 5-bit `sum` output correctly becomes `"10000"` (16), confirming that the adder handles the carry-out bit as expected.
 
 ![Adder Carry-Out Test Waveform](waveformFiles/waveformPhoto.png)
