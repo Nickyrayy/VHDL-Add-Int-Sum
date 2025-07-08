@@ -1,0 +1,48 @@
+$date
+  Tue Jul 08 20:47:15 2025
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module numeric_std $end
+$upscope $end
+$scope module add_tb $end
+$var reg 4 ! a[3:0] $end
+$var reg 4 " b[3:0] $end
+$var reg 5 # sum[4:0] $end
+$scope module uut $end
+$var reg 4 $ a[3:0] $end
+$var reg 4 % b[3:0] $end
+$var reg 5 & sum[4:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b0001 !
+b0001 "
+b00010 #
+b0001 $
+b0001 %
+b00010 &
+#10000000
+b0010 !
+b0011 "
+b00101 #
+b0010 $
+b0011 %
+b00101 &
+#20000000
+b1111 !
+b0001 "
+b10000 #
+b1111 $
+b0001 %
+b10000 &
+#30000000
